@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=410px, initial-scale=1.0">
-    <title>Analog Clock</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
-        <div class="clockContainer">
-            <div class="clockBox">
-                <div class="timeDigitalBox">
-                    <img src="./img/clock.png" style="width: 100%;" alt="">
-                </div>
-
-                <div class="sui">
-                    <div class="round"></div>
-                    <div class="suiBox hourSuiBox">
-                        <div class="hourSui hiddenSui"></div>
-                        <div class="hourSui clockSui"><span>Hour</span></div>
-                    </div>
-                    <div class="suiBox minuteSuiBox">
-                        <div class="minuteSui hiddenSui"></div>
-                        <div class="minuteSui clockSui"><span>Minute</span></div>
-                    </div>
-                    <div class="suiBox secondSuiBox">
-                        <div class="secondSui hiddenSui"></div>
-                        <div class="secondSui clockSui"></div>
-                    </div>
-                </div>
-            </div>
-            <h3>Analog Clock</h3>
+        <div class="clock">
+            <img src="./clock.png" alt="">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+            <div id="round"></div>
         </div>
+        <h3>Analog Clock Using Html, Css & Js</h3>
     </div>
-    <script src="./js/index.js"></script>
+    <script src="./index.js"></script>
 </body>
-
 </html>
