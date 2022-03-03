@@ -73,3 +73,20 @@ h3{
     text-align: center;
     margin-top: 43px;
 }
+
+.bottons{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(48 93 255);
+    color: white;
+    border: none;
+    padding: 12px 27px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btn:last-child{
+    margin-right: 0;
+}

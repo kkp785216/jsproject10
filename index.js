@@ -6,7 +6,13 @@ function updateTime(){
     document.getElementById('hour').style.transform = `rotate(${hour}deg)`;
     document.getElementById('minute').style.transform = `rotate(${minute}deg)`;
     document.getElementById('second').style.transform = `rotate(${second}deg)`;
-    console.log(hour, minute, second)
 }
 updateTime();
 setInterval(()=>{updateTime()}, 1000);
+
+// for changing clock img
+bottons = document.querySelector('.bottons');
+function changeClock(url){
+    let clockImg = document.querySelector('.clock img');
+    clockImg.setAttribute('src', url);
+}
